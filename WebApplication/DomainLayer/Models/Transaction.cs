@@ -1,7 +1,7 @@
 ﻿using System;
-using WebApplication.Enums;
+using DomainLayer.Enums;
 
-namespace WebApplication.Models
+namespace DomainLayer.Models
 {
     public class Transaction
     {
@@ -11,6 +11,8 @@ namespace WebApplication.Models
 
         public float Amount { get; set; }
 
-        public CurrencyCodesEnum CurrencyCode { get; set; }
+        public string CurrencyCode { get; set; }
+
+        public CurrencyCodesEnum Status { get; set; }
     }
 }

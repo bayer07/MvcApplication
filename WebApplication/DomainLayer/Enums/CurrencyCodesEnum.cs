@@ -1,4 +1,4 @@
-﻿namespace WebApplication.Enums
+﻿namespace DomainLayer.Enums
 {
     public enum CurrencyCodesEnum
     {

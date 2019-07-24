@@ -1,6 +1,7 @@
-﻿using System.Data.Entity;
+﻿using DomainLayer.Models;
+using System.Data.Entity;
 
-namespace WebApplication.Context
+namespace DomainLayer.Context
 {
     public class InquiryContext : DbContext
     {
@@ -15,8 +16,8 @@ namespace WebApplication.Context
         {
         }
 
-        public System.Data.Entity.DbSet<WebApplication.Models.Customer> Customers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
-        public System.Data.Entity.DbSet<WebApplication.Models.Transaction> Transactions { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
     }
 }
