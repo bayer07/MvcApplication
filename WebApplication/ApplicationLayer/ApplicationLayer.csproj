@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\CurrencyCodeConverter.cs" />
+    <Compile Include="Converters\TransactionConverter.cs" />
     <Compile Include="Dto\InquiryDto.cs" />
     <Compile Include="Dto\TransactionDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

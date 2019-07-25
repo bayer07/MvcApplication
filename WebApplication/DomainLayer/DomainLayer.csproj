@@ -48,7 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\InquiryContext.cs" />
-    <Compile Include="Converters\CurrencyCodeConverter.cs" />
     <Compile Include="CustomerRepository.cs" />
     <Compile Include="Enums\CurrencyCodesEnum.cs" />
     <Compile Include="ICustomerRepository.cs" />
